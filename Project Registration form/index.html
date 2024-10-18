@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="registration">
+            <form name="form">
+
+                <h2>Registration Form</h2>
+
+                <div class="name">
+                    <label for="name"><b>Name:</b></label>
+                    <i class="fa fa-user"></i>
+                    <input type="text" id="name" placeholder="Enter Full Name" required class="input">
+                </div>
+
+
+                <div class="email">
+                    <label for="email"><b>Email:</b></label>
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" id="email" placeholder="Email Address" required class="input">
+                </div>
+
+
+                <div class="pass">
+                    <label for="password"><b>Password:</b></label>
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" id="pass" name="name" placeholder="Enter Password" required class="input">
+                </div>
+
+
+                <div class="radio">
+
+                    <input type="radio" name="gender" value="male">
+                    <label for="male"><b>Male</b></label>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female"><b>Female</b></label>
+                </div>
+
+
+<div class="select">
+    <select class="continent">
+        <option>Select your continent</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+        <option value="Antarctica">Antarctica</option>
+        <option value="Europe">Europe</option>
+        <option value="Australia">Australia</option>
+      </select>
+</div>
+
+<div class="checkbox">
+    <input type="checkbox" value="yes" >
+    <label for="subscribe">Subscribe to newsletter</label>
+
+</div>
+
+<button type="submit" class="registerbtn">Register</button>
+
+<div class="signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+            </form>   
+        </div>
+        
+    </div>
+    </div>
+</body>
+
+</html>
